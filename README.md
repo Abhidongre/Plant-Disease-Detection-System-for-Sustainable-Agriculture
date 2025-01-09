@@ -15,7 +15,7 @@ Welcome to the **Plant Disease Detection System** repository! This project lever
 
 ## 🖼️ Dataset
 
-The project uses a labeled dataset of plant images categorized by disease type. Images are preprocessed into uniform dimensions (128x128 pixels) for model training. If you'd like to use your own dataset, ensure it's structured as follows:
+The project uses a labeled dataset of plant images categorized by disease type, primarily including plants such as apple, blueberry, cherry, corn, grape, orange, peach, potato, strawberry, and tomato. Images are preprocessed into uniform dimensions (256x256 pixels) for model training. If you'd like to use your own dataset, ensure it's structured as follows:
 
 ```
 Dataset/
@@ -146,6 +146,7 @@ Special thanks to:
 
 - Open datasets used for training.
 - TensorFlow and Keras for making deep learning accessible.
+- This project was built during the **AICTE Internship on AI: Transformative Learning**, powered by **TechSaksham**—a joint CSR initiative by **Microsoft** and **SAP**. The program provided mentorship, hands-on learning, and a platform to explore real-world AI applications.
 
 If you found this project helpful, don't forget to give it a star ⭐ on GitHub!
 
