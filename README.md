@@ -118,12 +118,6 @@ Plant-Disease-Detection-System/
 
 ---
 
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project for both personal and commercial purposes.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
