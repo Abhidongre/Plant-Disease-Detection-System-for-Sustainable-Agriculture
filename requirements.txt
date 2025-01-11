@@ -5,3 +5,4 @@ pandas
 matplotlib
 tensorflow
 keras
+opencv_python_headless

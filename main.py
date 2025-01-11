@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 def model_prediction(test_image):
-    model = tf.keras.models.load_model("trained_plant_disease_model.keras")
+    model = tf.keras.models.load_model("Model/trained_plant_disease_model.keras")
     image = tf.keras.preprocessing.image.load_img(test_image,target_size=(128,128))
     input_arr = tf.keras.preprocessing.image.img_to_array(image)
     input_arr = np.array([input_arr]) #convert single image to batch
@@ -11,7 +11,7 @@ def model_prediction(test_image):
 
 #Sidebar
 st.sidebar.title("Plant Disease Detection System for Sustainable Agriculture")
-app_mode = st.sidebar.selectbox("Select Page",["HOME","DISEASE RECOGNITION"])
+app_mode = st.sidebar.selectbox("Select Page",["HOME","PLANT DISEASE RECOGNITION"])
 #app_mode = st.sidebar.selectbox("Select Page",["Home"," ","Disease Recognition"])
 
 # import Image from pillow to open images
@@ -27,7 +27,7 @@ if(app_mode=="HOME"):
     st.markdown("<h1 style='text-align: center;'>Plant Disease Detection System for Sustainable Agriculture", unsafe_allow_html=True)
     
 #Prediction Page
-elif(app_mode=="DISEASE RECOGNITION"):
+elif(app_mode=="PLANT DISEASE RECOGNITION"):
     st.header("Plant Disease Detection System for Sustainable Agriculture")
     test_image = st.file_uploader("Choose an Image:")
     if(st.button("Show Image")):
