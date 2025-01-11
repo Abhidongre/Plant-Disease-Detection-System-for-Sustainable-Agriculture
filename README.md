@@ -15,7 +15,7 @@ Welcome to the **Plant Disease Detection System** repository! This project lever
 
 ## 🖼️ Dataset
 
-The project uses a labeled dataset of plant images categorized by disease type, primarily including plants such as apple, blueberry, cherry, corn, grape, orange, peach, potato, strawberry, and tomato. Images are preprocessed into uniform dimensions (256x256 pixels) for model training. If you'd like to use your own dataset, ensure it's structured as follows:
+The project uses a labeled dataset of plant images categorized by disease type, primarily including plants such as apple, blueberry, cherry, corn, grape, orange, peach, potato, strawberry, and tomato. Images are preprocessed into uniform dimensions for model training. If you'd like to use your own dataset, ensure it's structured as follows:
 
 ```
 Dataset/
