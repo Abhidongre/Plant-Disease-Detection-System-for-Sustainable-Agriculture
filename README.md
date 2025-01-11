@@ -94,8 +94,8 @@ Dataset/
 
 ### Accuracy
 
-- **Training Accuracy**: \~90%
-- **Validation Accuracy**: \~88%
+- **Training Accuracy**: \~99%
+- **Validation Accuracy**: \~96%
 
 ### Metrics
 
